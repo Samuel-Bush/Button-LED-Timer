@@ -1,4 +1,4 @@
-# Button-LED-Timer
+# Button-LED-Timer 
 
 A simple Python + Raspberry Pi system that measures the duration a button is pressed for my first project.
 
@@ -17,9 +17,14 @@ A simple Python + Raspberry Pi system that measures the duration a button is pre
 - GPIO extension board
 - Jumper wires
 
-  # Important
+  # What I Learnt
 
-  - The LED is wired to the GPIO22 pin, and the button to GPIO17. If these exact pins are not used, the code will need to be adapted.
+- Understanding of the breadboard system (such as rails).
+- Creating program logic that uses the GPIO pins.
+
+ # Note
+ - The hardware must be wired to the GPIO pins used in the buttonLEDtimer.py file.
+ - If GPIO17 & GPIO22 aren't used, the code must be updated accordingly.
  
   # Thank you for reading
 
